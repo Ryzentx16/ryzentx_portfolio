@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+  
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inknut Antiqua";
+    font-size: 1.19vw;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inknut Antiqua";
+    font-size: 1.19vw;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+  
+.proIMG { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+    border-radius: 0.595vw;
+    aspect-ratio: 1.665;
+
+    
+}
+
+.title{
+    color: #FFF;
+text-align: center;
+font-family: "Inknut Antiqua";
+font-size: 0.595vw;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}

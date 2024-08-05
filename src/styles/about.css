@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.25%;
+    margin-bottom: auto;
+}
+
+.textContainer{
+    display: flex;
+    width: 62.917vw;
+    height: 25.417vw;
+}
+
+@keyframes unblur {
+    from {
+    filter: blur(2.976vw);
+    }
+    to {
+    filter: blur(0px);
+    }
+}
+
+h1 {
+    animation: unblur 610ms;
+    color: #E2E2E2;
+    text-align: left;
+    font-family: Inder;
+    font-size:2.857vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.redLineText{
+    color: #F00;
+    font-family: Inder;
+    font-size: 2.738vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

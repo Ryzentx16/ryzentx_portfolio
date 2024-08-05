@@ -1,0 +1,94 @@
+.topnav {
+    background-color: #1A1A1A;
+    /* background: rgb(22,22,22); */
+    /* background: linear-gradient(180deg, rgba(22,22,22,1) 60%, rgba(62,62,62,1) 100%); */
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row-reverse;
+    min-width: 100%;
+    /* min-height: 12vw; */
+    min-height: 7.125vw;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@keyframes unblur {
+    from {
+    filter: blur(2.976vw);
+    }
+    to {
+    filter: blur(0px);
+    }
+}
+
+.headerLinks {
+    display: flex;
+    float: right;
+    width: 35.238vw;
+    height: 3.095vw;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.929vw;
+    margin-right: 7.8%;
+    animation: unblur 700ms ease-out;
+    
+}
+.headerLinks a {
+    /* float: right; */
+    text-decoration: none;
+    color: #E2E2E2;
+    background-color: transparent;
+    text-align: center;
+    font-family: "Inknut Antiqua";
+    animation: popDown 300ms ease;
+    font-size: 1.19vw;
+
+    font-weight: 300;
+    line-height: normal;
+
+    text-shadow: 0px 0.238vw 4.762vw #E2E2E2;    
+
+    transition: font-size 300ms;
+}
+
+.headerLinks a.active, a:visited {
+    font-weight: 900;
+}
+
+.headerLinks a:hover{
+    font-size: 1.488vw;
+}
+
+.headerLinks a:active {
+    font-weight: 500;
+    font-size: 1.488vw;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 3.75vw;
+    height: 3.75vw;
+    /* border-radius: 50%; */
+    border-radius: var(--BlurBack, 3.75vw);
+    background: lightgray 50% / cover no-repeat;
+    filter: brightness(125%);
+    box-shadow: 0px 0px 1.637vw 0px rgba(139, 0, 0, 0.35);
+    margin-left: 1.905vw;
+    animation: unblur 700ms ease-out;
+    transition: width 300ms, height 300ms;
+}
+
+.avatar:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    width:4.167vw;
+    height: 4.167vw;
+}
+
+.avatar:active {
+    width: 3.393vw;
+    height: 3.393vw;
+}
