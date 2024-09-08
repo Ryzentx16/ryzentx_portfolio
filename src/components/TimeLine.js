@@ -23,7 +23,11 @@ export default function Timeline({ cards }) {
     if (element != undefined) {
       items.push({ title: element.period });
       displayCards.push(
-        <div key={i} onClick={() => onCard(element)} className="container">
+        <div
+          key={i}
+          onClick={() => onCard(element)}
+          className="container-timeline"
+        >
           <img src={element.img} className="proIMG" />
           <div className="center">{`${element.title}`}</div>
         </div>
@@ -32,11 +36,11 @@ export default function Timeline({ cards }) {
   }
 
   return isClient ? (
-    <div style={{ width: "100%", height: "100%" }}>
+    <div style={{ minWidth: "100%", minHeight: "100%" }}>
       <Chrono
         items={items}
         mode="VERTICAL_ALTERNATING"
-        cardHeight={"auto"} // sets the height of the timeline card to 200px
+        cardHeight={"auto"} // sets the height of the timeline card to 2
         disableToolbar
         borderLessCards
         // disableClickOnCircle

@@ -7,14 +7,14 @@ const cards = [
     period: "Jan 2021 - Sep 2023",
     title:
       "IMSK: IoT Monitoring System for Knitting Machines (Textile Industry)",
-    img: `${process.env.BASE_PATH}/textile.png`,
+    img: `${""}/textile.png`,
     link: "https://github.com/stap20/Textile-APP",
   },
 ];
 
 export default function projects() {
   return (
-    <div className="container">
+    <div className="container-projects">
       <Timeline cards={cards} />
     </div>
   );

@@ -84,7 +84,7 @@ const items = [
 
 export default function certificates() {
   return (
-    <div className="container">
+    <div className="cert_container">
       <GridView items={items} />
     </div>
   );

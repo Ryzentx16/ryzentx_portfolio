@@ -1,4 +1,4 @@
-.container{
+.cont_container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,14 +13,13 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    /* background-color: red; */
 }
 
 .contactMeText{
     color: #FFF;
     text-align: center;
     font-family: Inder;
-    font-size: 40px;
+    font-size: 3.125vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

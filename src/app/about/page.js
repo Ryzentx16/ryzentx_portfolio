@@ -2,7 +2,7 @@ import "styles/about.css";
 
 export default function about() {
   return (
-    <div className="container">
+    <div className="about_container">
       <div className="textContainer">
         <section className="textAbout">
           <h1>

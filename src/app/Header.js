@@ -7,11 +7,6 @@ import Link from "next/link";
 export default function Header(props) {
   const currentPath = usePathname();
 
-  if (currentPath === "/") {
-    if (typeof window !== "undefined") {
-      window.location.replace("/about");
-    }
-  }
   const btns = [
     {
       title: "About",
@@ -49,11 +44,7 @@ export default function Header(props) {
         {btnList}
       </nav>
       <div className="pfpContainer" style={{ display: "flex" }}>
-        <AvatarImage
-          src={`${process.env.BASE_PATH}/avatar.png`}
-          alt="Avatar"
-          className="avatar"
-        />
+        <AvatarImage src={`${""}/avatar.png`} alt="Avatar" className="avatar" />
       </div>
     </div>
   );

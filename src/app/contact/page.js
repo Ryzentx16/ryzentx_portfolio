@@ -22,7 +22,7 @@ export default function contact() {
   };
 
   return (
-    <div className="container">
+    <div className="cont_container">
       <section className="contactContainer">
         <h1 className="contactMeText">Contact Me</h1>
         <div className="subcontactContainer">
